@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36203.30 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nahkd123.BasicTabletGestures", "nahkd123.BasicTabletGestures.csproj", "{43366E4E-C565-4B00-B2C3-7214CAE22E71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43366E4E-C565-4B00-B2C3-7214CAE22E71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43366E4E-C565-4B00-B2C3-7214CAE22E71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43366E4E-C565-4B00-B2C3-7214CAE22E71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43366E4E-C565-4B00-B2C3-7214CAE22E71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CFFCD749-A4C1-469B-8490-608BE8CD1E2A}
+	EndGlobalSection
+EndGlobal
