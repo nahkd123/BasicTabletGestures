@@ -5,7 +5,24 @@ and the likes.
 
 ## Installation
 
-_TODO_
+### From source
+
+1. Clone this repository.
+1. Build plugin: `dotnet build --configuration=Release`.
+1. Copy DLL from `./bin/Release/net8.0/nahkd123.BasicTabletGestures.dll` to OTD
+   plugin folder.
+1. Restart OpenTabletDriver.
+
+### Prebuilt binaries
+
+1. Download `nahkd123.BasicTabletGestures.dll` in [Releases tab][releases].
+1. Create a new folder inside OTD's plugins folder and move the downloaded file
+   in that folder.
+
+   - For Windows: Create a folder in `%localappdata%\OpenTabletDriver\Plugins\`
+	 and move the `.dll` file to that newly created folder.
+
+1. Restart OpenTabletDriver.
 
 ## Configuring filters
 
@@ -37,3 +54,5 @@ binding when tapping on tablet surface with specific number of fingers.
   - `Ctrl + Shift + Z`: Redo;
   - `D1 + D2 + D3`: Press 1, 2 and 3 in number key row at the same time;
   - `Numpad5`: Press 5 in numpad;
+
+[releases]: https://github.com/nahkd123/BasicTabletGestures/releases
