@@ -31,4 +31,9 @@ binding when tapping on tablet surface with specific number of fingers.
   `shift` will be translated to `Shift` and `alt` to `Alt`. The keys are
   **case-sensitive**. The list of all possible keys can be found in
   OpenTabletDriver's keybind editor (when setting up binding for pen/aux
-  buttons).
+  buttons). Examples are:
+
+  - `Control + Z`: Undo;
+  - `Ctrl + Shift + Z`: Redo;
+  - `D1 + D2 + D3`: Press 1, 2 and 3 in number key row at the same time;
+  - `Numpad5`: Press 5 in numpad;
